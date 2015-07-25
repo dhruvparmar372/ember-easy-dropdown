@@ -2,7 +2,7 @@
 
 Demo link - http://dhruvparmar372.github.io/ember-easy-dropdown/
 
-##Usage
+## Usage
 ```
 {{#easy-dropdown elementId='dropdown-test' classNames='nav-bar-dp pull-right'}}
   <div class='dropdown-toggle clickable'>
