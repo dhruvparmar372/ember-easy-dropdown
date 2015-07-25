@@ -1,24 +1,50 @@
-# Ember-easy-dropdown
+# ember-easy-dropdown
 
-This README outlines the details of collaborating on this Ember addon.
+Demo link - http://dhruvparmar372.github.io/ember-easy-dropdown/
 
-## Installation
+##Usage
+```
+{{#easy-dropdown elementId='dropdown-test' classNames='nav-bar-dp pull-right'}}
+  <div class='dropdown-toggle clickable'>
+  	Me
+  </div>
+  <div class='dropdown-details hide'>
+  	Profile<br>
+  	Logout
+  </div>
+{{/easy-dropdown}}
+```
+
+### Styling the dropdown
+In theory the addon is responsible for adding a class on the dropdown depending on the current state of dropdown. It will be either *expanded* or *collapsed*. Add your custom styles on the basis of that.
+
+### Detected Dropdown State Toggle
+Currently component supports triggering an event on the `parentObject` with the following object as the parameter. 
+```
+    {
+        new_state : state, //current state
+        element : element_id, //id of the dropdown element.
+    }
+```
+
+## Contributing to the addon
+### Installation
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
 
-## Running
+### Running
 
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-## Running Tests
+### Running Tests
 
 * `ember test`
 * `ember test --server`
 
-## Building
+### Building
 
 * `ember build`
 
