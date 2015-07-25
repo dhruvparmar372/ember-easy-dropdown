@@ -1,7 +1,7 @@
 {
   "name": "ember-easy-dropdown",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Easy Dropdown Component for EmberJS Applications.",
   "directories": {
     "doc": "doc",
     "test": "tests"
