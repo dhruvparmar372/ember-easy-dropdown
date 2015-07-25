@@ -1,6 +1,6 @@
 {
   "name": "ember-easy-dropdown",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -34,7 +34,11 @@
     "ember-try": "0.0.4"
   },
   "keywords": [
-    "ember-addon","dropdown","easy-dropdown","drop-down","ember-dropdown"
+    "ember-addon",
+    "dropdown",
+    "easy-dropdown",
+    "drop-down",
+    "ember-dropdown"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
