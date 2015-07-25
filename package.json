@@ -1,6 +1,6 @@
 {
   "name": "ember-easy-dropdown",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easy Dropdown Component for EmberJS Applications.",
   "directories": {
     "doc": "doc",
