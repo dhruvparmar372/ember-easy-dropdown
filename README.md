@@ -2,7 +2,7 @@
 
 Demo link - http://dhruvparmar372.github.io/ember-easy-dropdown/
 
-## Usage
+### Usage
 ```
 {{#easy-dropdown elementId='dropdown-test' classNames='nav-bar-dp pull-right'}}
   <div class='dropdown-toggle clickable'>
@@ -15,10 +15,13 @@ Demo link - http://dhruvparmar372.github.io/ember-easy-dropdown/
 {{/easy-dropdown}}
 ```
 
+
 ### Styling the dropdown
 In theory the addon is responsible for adding a class on the dropdown depending on the current state of dropdown. It will be either *expanded* or *collapsed*. Add your custom styles on the basis of that.
 
-### Detected Dropdown State Toggle
+You can refer to https://github.com/dhruvparmar372/ember-easy-dropdown/blob/master/tests/dummy/app/styles/app.css for base dropdown styles.
+
+### Detecting Dropdown State Toggle
 Currently component supports triggering an event on the `parentObject` with the following object as the parameter. 
 ```
     {
